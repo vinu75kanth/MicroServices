@@ -72,11 +72,11 @@ A full-fledged Quiz Application developed using **Java Spring Boot**, starting a
 2. **application.properties**
    - Set your PostgreSQL credentials for Quiz Service and Question Service in application.properties, in the feilds {username} and {passwd}
    - You can alter the server.port in application properties if you want to
-         -- **or by default the Ports are**
-         -- **Quiz Service** - 8095
-         -- **Question Service** - 8080
-         -- **API Gateway** - 8765
-         -- **Service Registry** - 8761
+         - **or by default the Ports are**
+         - **Quiz Service** - 8095
+         - **Question Service** - 8080
+         - **API Gateway** - 8765
+         - **Service Registry** - 8761
 
 3. **Run Each First Service Registry and remaning three**
    - you can send every request through port 8765 or individual ports

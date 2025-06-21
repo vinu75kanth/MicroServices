@@ -55,6 +55,8 @@ A full-fledged Quiz Application developed using **Java Spring Boot**, starting a
 ---
 
 ## 📦 Installation
+ - **Quiz is monolitihic App** - use it to experenice monolithic architecture.
+ - **Other Four are MicroServices** - Use only these four for running MicroService.
 
 ### Prerequisites
 

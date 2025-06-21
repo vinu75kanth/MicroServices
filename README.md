@@ -51,3 +51,39 @@ A full-fledged Quiz Application developed using **Java Spring Boot**, starting a
 
 - **Quiz Service**: Manages quiz creation and fetching.
 - **Question Service**: Manages Question DataBase and gives questions to quiz service to create quiz.
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+- Java 21+
+- PostgreSQL
+- **Preferred Intellij IDEA**
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/quiz-app-microservice.git
+   cd quiz-app-microservice
+
+2. **application.properties**
+   - Set your PostgreSQL credentials for Quiz Service and Question Service in application.properties, in the feilds {username} and {passwd}
+   - You can alter the server.port in application properties if you want to
+         -- **or by default the Ports are**
+         -- **Quiz Service** - 8095
+         -- **Question Service** - 8080
+         -- **API Gateway** - 8765
+         -- **Service Registry** - 8761
+
+3. **Run Each First Service Registry and remaning three**
+   - you can send every request through port 8765 or individual ports
+
+
+
+# 🧑‍💻 Author
+# Vinu Kanth
+  - **💼 Java Backend Developer**
+  - **🌱 Exploring Spring Cloud and Microservice architecture**

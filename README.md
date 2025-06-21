@@ -20,7 +20,7 @@ A full-fledged Quiz Application developed using **Java Spring Boot**, starting a
 
 ### ✅ Core Technologies
 
-- **Java 17**
+- **Java 21**
 - **Spring Boot**
 - **Spring Web**
 - **Spring Data JPA (Hibernate)**
@@ -37,4 +37,17 @@ A full-fledged Quiz Application developed using **Java Spring Boot**, starting a
 ---
 
 ## 🧱 Microservice Architecture
+        +---------------------+
+        |     API GATEWAY     |
+        +---------------------+
+                    |
+    +-------------------------------+
+    |            EUREKA             |
+    +-------------------------------+
+       /                        \
+    +--------------+ +------------------+
+    | Quiz Service | | Question Service | 
+    +--------------+ +------------------+ 
 
+- **Quiz Service**: Manages quiz creation and fetching.
+- **Question Service**: Manages Question DataBase and gives questions to quiz service to create quiz.
